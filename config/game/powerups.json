@@ -1,0 +1,14 @@
+{
+  "ExtendPaddle": {
+    "duration": 10.0,
+    "spawnInterval": 15.0
+  },
+  "SplitBall": {
+    "duration": 0.0,
+    "spawnInterval": 20.0
+  },
+  "SlowMotion": {
+    "duration": 8.0,
+    "spawnInterval": 25.0
+  }
+}
