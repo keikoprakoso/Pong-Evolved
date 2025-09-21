@@ -2,7 +2,7 @@
 
 A sophisticated AI-driven Pong game combining Imitation Learning and Deep Reinforcement Learning using C++/SFML and Python/PyTorch.
 
-## 🎯 Features
+## Features
 
 - **C++ Game Engine**: Real-time graphics and physics with SFML
 - **Python AI Pipeline**: Complete ML training and inference system
@@ -12,7 +12,7 @@ A sophisticated AI-driven Pong game combining Imitation Learning and Deep Reinfo
 - **Evaluation Tools**: Comprehensive model evaluation and visualization
 - **Load Testing**: Performance testing for production deployment
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Pong Evolved/
@@ -78,7 +78,7 @@ Pong Evolved/
 └── README.md                      # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -111,7 +111,7 @@ Pong Evolved/
    ./build/pong_evolved --server
    ```
 
-## 🤖 AI Training Pipeline
+## AI Training Pipeline
 
 ### 1. Data Collection
 ```bash
@@ -140,7 +140,7 @@ python scripts/training/train_dqn.py --config config/ai/train_config.yaml
 python scripts/training/hybrid_train.py --bc-model models/bc_model.pth --output-model models/hybrid_model.pth
 ```
 
-## 📊 Evaluation
+## Evaluation
 
 ```bash
 # Evaluate trained models
@@ -151,7 +151,7 @@ python scripts/evaluation/evaluate_bc.py --model models/bc_model.pth --episodes 
 python scripts/evaluation/load_test.py --test all
 ```
 
-## 🔧 Inference
+## Inference
 
 ```bash
 # Start inference server
@@ -161,14 +161,14 @@ python src/ai/inference_server.py --model models/dqn_model.pth --port 5001
 python scripts/evaluation/load_test.py --test health
 ```
 
-## 🎮 Game Controls
+## Game Controls
 
 - **W/Up Arrow**: Move paddle up
 - **S/Down Arrow**: Move paddle down
 - **P**: Pause game
 - **Q**: Quit
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run unit tests
@@ -178,14 +178,14 @@ python -m pytest tests/unit/ -v
 python -m pytest tests/integration/ -v
 ```
 
-## 📈 Demo
+## Demo
 
 ```bash
 # Run complete AI pipeline demo
 python examples/demo_ai.py --components all
 ```
 
-## 🐳 Docker
+## Docker
 
 ```bash
 # Build Docker image
@@ -195,7 +195,7 @@ docker build -t pong-evolved .
 docker run -p 5000:5000 -p 5001:5001 pong-evolved
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Training Configuration (`config/ai/train_config.yaml`)
 ```yaml
@@ -229,7 +229,7 @@ max_steps_per_episode: 1000
 }
 ```
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 - **Build fails**: Ensure SFML installed correctly
 - **Server not connecting**: Check ports 5000/5001 are free
@@ -237,25 +237,25 @@ max_steps_per_episode: 1000
 - **Window not focused**: Click window for keyboard input
 - **M2 issues**: Use MPS backend for PyTorch GPU
 
-## 📝 Architecture
+## Architecture
 
 - **C++**: Game loop, physics, rendering, AI communication
 - **Python**: AI training, inference, data processing, evaluation
 - **Communication**: JSON over TCP sockets (port 5000 for game, 5001 for inference)
 - **Data Flow**: Human data → BC training → Hybrid training → Evaluation → Inference
 
-## 🏆 Performance
+## Performance
 
 - **Training**: ~1000 episodes for convergence
 - **Inference**: <10ms latency
 - **Throughput**: 100+ requests/second
 - **Memory**: <1GB for training, <100MB for inference
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -263,7 +263,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 4. Add tests
 5. Submit a pull request
 
-## 📞 Support
+## Support
 
 For issues and questions:
 - Create an issue on GitHub
@@ -272,4 +272,4 @@ For issues and questions:
 
 ---
 
-**Pong Evolved** - Where classic gaming meets modern AI! 🎮🤖# Pong-Evolved
+**Pong Evolved** - Where classic gaming meets modern AI!

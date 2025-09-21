@@ -155,4 +155,4 @@ When requesting features, please:
 
 Feel free to open an issue for questions or start a discussion in the GitHub Discussions section.
 
-Thank you for contributing to Pong Evolved! 🎮🤖
+Thank you for contributing to Pong Evolved!

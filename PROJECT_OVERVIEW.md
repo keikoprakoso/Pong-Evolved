@@ -1,10 +1,10 @@
 # Pong Evolved - Project Overview
 
-## 🎯 Project Summary
+## Project Summary
 
 Pong Evolved is a sophisticated AI-driven Pong game that combines classic arcade gameplay with modern machine learning techniques. The project demonstrates a complete AI pipeline from data collection to real-time inference, showcasing both C++ game development and Python AI implementation.
 
-## 🏗️ Architecture
+## Architecture
 
 ### Core Components
 - **C++ Game Engine**: Real-time graphics, physics, and game logic using SFML
@@ -19,7 +19,7 @@ Pong Evolved is a sophisticated AI-driven Pong game that combines classic arcade
 - **Build System**: CMake 3.16+
 - **Testing**: pytest, custom evaluation tools
 
-## 📊 Key Metrics
+## Key Metrics
 
 ### Performance
 - **Inference Latency**: <10ms average
@@ -35,7 +35,7 @@ Pong Evolved is a sophisticated AI-driven Pong game that combines classic arcade
 - **Training Data**: 1000+ samples for BC
 - **Validation Accuracy**: 37-50% (reasonable for 3-action space)
 
-## 🚀 Features Implemented
+## Features Implemented
 
 ### ✅ Complete AI Pipeline
 1. **Data Collection**: Synthetic human gameplay data generation
@@ -59,7 +59,7 @@ Pong Evolved is a sophisticated AI-driven Pong game that combines classic arcade
 4. **Documentation**: Comprehensive guides and examples
 5. **CI/CD**: Automated testing with GitHub Actions
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Pong Evolved/
@@ -79,7 +79,7 @@ Pong Evolved/
 └── [build, data, models, results, logs]/ # Runtime directories
 ```
 
-## 🎮 How It Works
+## How It Works
 
 ### Training Pipeline
 1. **Data Collection**: Generate or collect human gameplay data
@@ -95,7 +95,7 @@ Pong Evolved/
 4. **Action Execution**: Send action back to game server
 5. **Reward Calculation**: Track performance and score changes
 
-## 🏆 Achievements
+## Achievements
 
 ### Technical Accomplishments
 - ✅ **Complete Integration**: Seamless C++ ↔ Python communication
@@ -110,7 +110,7 @@ Pong Evolved/
 - ✅ **Performance Metrics**: Detailed evaluation and visualization
 - ✅ **Scalable Architecture**: Easy to extend with new algorithms
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 ### Immediate (Next Version)
 - Real human data collection with keyboard input
@@ -124,7 +124,7 @@ Pong Evolved/
 - Cloud deployment
 - Social features and leaderboards
 
-## 📈 Impact
+## Impact
 
 This project demonstrates:
 - **Full-stack AI Development**: From research to production
@@ -133,7 +133,7 @@ This project demonstrates:
 - **Machine Learning**: Complete ML pipeline
 - **Software Engineering**: Professional project structure
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Educational
 - Learn AI/ML concepts through interactive gameplay
@@ -152,4 +152,4 @@ This project demonstrates:
 
 ---
 
-**Pong Evolved** represents a complete, production-ready AI system that successfully bridges classic gaming with modern machine learning. It's ready for GitHub, deployment, and further development! 🎮🤖
+**Pong Evolved** represents a complete, production-ready AI system that successfully bridges classic gaming with modern machine learning. It's ready for GitHub, deployment, and further development!
