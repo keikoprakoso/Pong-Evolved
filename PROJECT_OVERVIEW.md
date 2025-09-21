@@ -37,7 +37,7 @@ Pong Evolved is a sophisticated AI-driven Pong game that combines classic arcade
 
 ## Features Implemented
 
-### ✅ Complete AI Pipeline
+###  Complete AI Pipeline
 1. **Data Collection**: Synthetic human gameplay data generation
 2. **Behavioral Cloning**: Supervised learning on human data
 3. **Deep Q-Learning**: Reinforcement learning from scratch
@@ -45,14 +45,14 @@ Pong Evolved is a sophisticated AI-driven Pong game that combines classic arcade
 5. **Real-time Inference**: Live AI gameplay with sub-10ms latency
 6. **Evaluation**: Comprehensive performance metrics and visualization
 
-### ✅ Game Engine
+###  Game Engine
 1. **Real-time Graphics**: Smooth 60 FPS gameplay
 2. **Physics Engine**: Realistic ball and paddle physics
 3. **Power-up System**: ExtendPaddle, SplitBall, SlowMotion
 4. **Scoring System**: Competitive gameplay with score tracking
 5. **Server Mode**: Headless operation for AI integration
 
-### ✅ Production Features
+###  Production Features
 1. **Load Testing**: Performance testing with concurrent requests
 2. **Error Handling**: Robust connection and error recovery
 3. **Configuration**: Flexible YAML-based configuration
@@ -98,17 +98,17 @@ Pong Evolved/
 ## Achievements
 
 ### Technical Accomplishments
-- ✅ **Complete Integration**: Seamless C++ ↔ Python communication
-- ✅ **Real-time Performance**: Sub-10ms inference latency
-- ✅ **Production Ready**: Robust error handling and load testing
-- ✅ **Professional Structure**: Industry-standard project organization
-- ✅ **Comprehensive Testing**: Unit, integration, and load tests
+-  **Complete Integration**: Seamless C++ ↔ Python communication
+-  **Real-time Performance**: Sub-10ms inference latency
+-  **Production Ready**: Robust error handling and load testing
+-  **Professional Structure**: Industry-standard project organization
+-  **Comprehensive Testing**: Unit, integration, and load tests
 
 ### AI Accomplishments
-- ✅ **Hybrid Learning**: Successfully combines BC and RL
-- ✅ **Live Gameplay**: AI plays Pong in real-time
-- ✅ **Performance Metrics**: Detailed evaluation and visualization
-- ✅ **Scalable Architecture**: Easy to extend with new algorithms
+-  **Hybrid Learning**: Successfully combines BC and RL
+-  **Live Gameplay**: AI plays Pong in real-time
+-  **Performance Metrics**: Detailed evaluation and visualization
+-  **Scalable Architecture**: Easy to extend with new algorithms
 
 ## Future Enhancements
 
